@@ -1,2 +1,2 @@
 # Heroines
-SDK for JavaScript.
+JavaScriptのための美少女(幻覚)SDKです。
