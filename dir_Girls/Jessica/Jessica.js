@@ -1,6 +1,6 @@
 export const FIX = {
-	ID: "id",
-	CLASS: "class"
+     ID: "id",
+     CLASS: "class"
 } ;
 
 export const fnGetElement = ( type, value ) => {
