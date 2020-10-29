@@ -25,3 +25,7 @@ export const fnGrantClass = ( element, className ) => {
 export const fnAppend = ( parent, child ) => {
      parent.appendChild( child ) ;
 } ;
+
+export const fnGrantNewLine = ( parent ) => {
+     parent.appendChild( document.createElement( "br" ) ) ;
+} ;
