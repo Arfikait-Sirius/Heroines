@@ -29,8 +29,7 @@ export const fnLowerAll = ( base ) => {
 //------------------------
 export const fnUpperFirst = ( base ) => {
      const head = base[0];
-     const len = base.length ;
-     const tail = base.slice( 1, len ) ;
+     const tail = base.slice( 1, base.length ) ;
 
      return head.toUpperCase() + tail.toLowerCase() ;
 } ;
