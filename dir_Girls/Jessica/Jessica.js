@@ -60,6 +60,6 @@ export const fnAppendNewLine = ( parent ) => {
      parent.appendChild( document.createElement( "br" ) ) ;
 } ;
 
-export const drAddClickEvent = ( element, func ) => {
+export const fnAddClickEvent = ( element, func ) => {
      element.onclick = func ;
 } ;
